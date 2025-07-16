@@ -1,11 +1,13 @@
 {
     "manifest_version": 3,
-    "name": "Hello World!",
+    "name": "BiasIQ",
     "description": "This extension shows a Hello World message!",
     "version": "1.0",
     "action": {
         "default_popup": "window.html",
         "default_icon": "icon.png"
     },
-    "background": "background.js"
+    "background": "background.js",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["<all_urls>"]
 }
